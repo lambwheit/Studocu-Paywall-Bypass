@@ -6,3 +6,4 @@ Triple click on the document you want to save to launch document view, you might
 Ctrl+P works fine on document view.
 
 Installation steps:
+![](https://github.com/lambwheit/Studocu-Paywall-Bypass/blob/master/installationSteps.gif)
