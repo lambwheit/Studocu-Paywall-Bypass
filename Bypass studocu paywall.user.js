@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bypass studocu paywall
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.01
 // @description  try to take over the world!
 // @author       https://github.com/lambwheit
 // @match        https://www.studocu.com/*
