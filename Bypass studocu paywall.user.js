@@ -74,14 +74,7 @@ function addGlobalStyle(css) {
                 console.log("no ads on top of pages found")
             }
             try {
-                var ad = document.getElementsByClassName("_9b5d16e08bb1")
-                for (var i = 0; i < ad.length; i++) {
-                    var pagecontent = ad[i].parentNode.childNodes;
-                    for (var j = 0; j < pagecontent.length; j++) {
-                        pagecontent[j].parentNode.removeChild(pagecontent[j]);
-
-                    }
-                }
+                document.getElementById("document-wrapper").removeChild(document.getElementById("document-wrapper").childNodes[0]) 
             } catch (errror) {
                 console.log("no overpage ads found")
             }
