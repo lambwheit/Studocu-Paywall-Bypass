@@ -4,6 +4,7 @@
 // @version      1.01
 // @description  try to take over the world!
 // @author       https://github.com/lambwheit
+// @match        https://studeersnel.nl/*
 // @match        https://www.studocu.com/*
 // @icon         https://www.google.com/s2/favicons?domain=studocu.com
 // ==/UserScript==
