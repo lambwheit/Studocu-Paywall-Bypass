@@ -8,6 +8,10 @@
 // @match        https://www.studocu.com/*
 // @icon         https://www.google.com/s2/favicons?domain=studocu.com
 // ==/UserScript==
+function Useless()
+{
+    console.log("Test");
+}
 function addGlobalStyle(css) {
     var head, style;
     head = document.getElementsByTagName('head')[0];
