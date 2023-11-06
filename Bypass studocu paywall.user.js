@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bypass studocu paywall
 // @namespace    http://tampermonkey.net/
-// @version      1.20
+// @version      1.21
 // @description  try to take over the world!
 // @author       https://github.com/lambwheit
 // @match        https://studeersnel.nl/*
@@ -80,9 +80,16 @@ function addGlobalStyle(css) {
             } catch (errror) {
                 console.log("no overpage ads found")
             }
+            try{
+	            var container = document.getElementById("page-container");
+	            if (container != null) {
+		            Array.from(container.children).forEach(function(child) {if (child.className.includes('banner-wrapper')) {container.removeChild(child);}});
+	            }
+            }
+            catch{
+	            console.log("no overpage ads found")
+            }
         }, 100);
 
     })
-
-
 })();
